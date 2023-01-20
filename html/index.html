@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p {
+            color: orange;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body link="red" alink="yellow" vlink="green" style="margin: 0px;">
+
+
+    <a href="/" title="logo"><img src="./assets/images/logo.png" width="168" height="58" alt="Logo"></a>
+
+    <a href="#home" title="Home">Home</a>
+    <a href="#about" title="About" target="_self">About</a>
+    <a href="contact-us.html" title="Contact" target="_blank">Contact</a>
+
+
+    <div id="home" style="min-height: 100vh;">
+
+
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+        <ul>
+            <li>list 1</li>
+            <li>list 2<ul>
+                    <li>list 1</li>
+                    <li>list 2</li>
+                    <li>list 3</li>
+                </ul>
+            </li>
+            <li>list 3</li>
+        </ul>
+        <ul type="square">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+
+        <ol type="a" start="d">
+            <li>Introduction</li>
+            <li>List of Grievances</li>
+            <li>Conclusion</li>
+        </ol>
+        <br>
+        <a href="mailto:nowhere@mozilla.org">owhere@mozilla.org</a>
+        <a href="tel:+491570156">+49 157 0156</a>
+        <br>
+        <span>
+            <p>block element inside the inline block.</p>
+        </span>
+        <b>
+            <p>block <span>element</span> inside the inline block.</p>
+        </b>
+
+        <p>block <span>element</span> inside the inline block.</p>
+        <p><b>block <span>element</span> inside the inline block.</b></p>
+
+
+
+        <p> This article describes several <b class="keywords">text-level</b> elements. It
+            explains their usage in an <b class="keywords">HTML</b> document.
+        </p>
+        <p>
+            <strong>Important:</strong> Before proceeding, make sure you add plenty of butter.
+        </p>
+        <p><i lang="la">Musa</i> is one of two or three genera in the family <i lang="la">Musaceae</i>; it includes
+            bananas and plantains.</p>
+        <p>We <em>had</em> to do something about it.</p>
+        <p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
+        <p><small>The content is licensed under a Creative Commons Attribution-ShareAlike 2.5 Generic License.</small>
+        </p>
+        <blockquote>
+            There is <del>nothing</del> <ins>no code</ins> either good or bad, but <del>thinking</del> <ins>running
+                it</ins> makes it so.
+        </blockquote>
+        <p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+        <p>Almost every developer's favorite molecule is
+            C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine."</p>
+
+
+
+        <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
+            <p>
+                Avian carriers can provide high delay, low throughput, and low altitude
+                service. The connection topology is limited to a single point-to-point path
+                for each carrier, used with standard carriers, but many carriers can be used
+                without significant interference with each other, outside early spring.
+                This is because of the 3D ether space available to the carriers, in contrast
+                to the 1D ether used by IEEE802.3. The carriers have an intrinsic collision
+                avoidance system, which increases availability.
+            </p>
+        </blockquote>
+
+        <p>When Dave asks HAL to open the pod bay door, HAL answers:
+            <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">
+                I'm sorry, Dave. I'm afraid I can't do that.
+            </q>
+        </p>
+
+        <p>Ashok's joke made me <abbr title="Laugh Out Loud">LOL</abbr> big time.</p>
+
+        <p>Contact the author of this page:</p>
+
+        <address>
+            <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+            <a href="tel:+13115552368">(311) 555-2368</a>
+        </address>
+
+        <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
+
+        <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+
+
+
+
+        <picture>
+            <source srcset="./assets/images/product-image.jpg" media="(max-width: 600px)">
+            <img src="./assets/images/organic-half-galon-milk_360.png" width="360" height="360" alt="milk_360">
+        </picture>
+
+        <img src="./assets/images/lowfat-milk_360.png" width="360" height="360" alt="milk_360" />
+
+
+
+        <iframe src="https://logrocket.com/" height="400px" width="400px" name="my-iframe" allow="fullscreen"></iframe>
+
+
+        <table>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+            </tr>
+        </table>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Header content 1</th>
+                    <th>Header content 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="0" colspan="0">Body content 1</td>
+                    <td>Body content 2</td>
+                </tr>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                    <td>Body content 2</td>
+                    <td>Body content 2</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table>
+            <colgroup span="4"></colgroup>
+            <tr>
+                <th>Countries</th>
+                <th>Capitals</th>
+                <th>Population</th>
+                <th>Language</th>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>Washington, D.C.</td>
+                <td>309 million</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>Sweden</td>
+                <td>Stockholm</td>
+                <td>9 million</td>
+                <td>Swedish</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>Superheros and sidekicks</caption>
+            <colgroup>
+                <col>
+                <col span="1" class="batman">
+                <col span="1" class="flash">
+            </colgroup>
+            <tr>
+                <td> </td>
+                <th scope="col">Batman</th>
+                <th scope="col">Robin</th>
+                <th scope="col">The Flash</th>
+                <th scope="col">Kid Flash</th>
+                <th scope="col">Kid Flash</th>
+            </tr>
+            <tr>
+                <th scope="row">Skill</th>
+                <td>Smarts</td>
+                <td>Dex, acrobat</td>
+                <td>Super speed</td>
+                <td>Super speed</td>
+                <td>Super speed</td>
+            </tr>
+        </table>
+
+
+        <marquee>This text will scroll from right to left</marquee>
+
+        <marquee direction="up">This text will scroll from bottom to top</marquee>
+
+        <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+            <marquee behavior="alternate"> This text will bounce </marquee>
+        </marquee>
+
+        <pre>
+            let i = 5;
+            
+            if (i &lt; 10 &amp;&amp; i &gt; 0)
+              return &quot;Single Digit Number&quot;
+        </pre>
+
+        <progress value="70" max="100">70 %</progress>
+
+    </div>
+
+
+
+
+    <div id="about" style="background: green; height: 100vh;">
+
+        <p>This text will be green. Inline styles take precedence over CSS included externally.</p>
+
+        <p style="color: blue">The <code>style</code> attribute can override it, though.</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
